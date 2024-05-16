@@ -4,12 +4,5 @@
 
 <h1><a href="https://github.com/TheAlgorithms/">The Algorithms</a> - Rust</h1>
 
-<!-- Short description: -->
-  <h3>All algorithms implemented in Rust - for education</h3>
-</div>
-
 ### List of Algorithms
 See our [directory](DIRECTORY.md) for easier navigation and a better overview of the project.
-
-### Contributing
-Read through our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
