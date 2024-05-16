@@ -1,0 +1,21 @@
+[package]
+name = "the_algorithms_rust"
+edition = "2021"
+version = "0.1.0"
+authors = ["Anshul Malik <malikanshul29@gmail.com>"]
+
+[dependencies]
+lazy_static = "1.4.0"
+num-bigint = { version = "0.4", optional = true }
+num-traits = { version = "0.2", optional = true }
+rand = "0.8"
+rand_chacha = "0.3"
+nalgebra = "0.32.3"
+
+[dev-dependencies]
+quickcheck = "1.0"
+quickcheck_macros = "1.0"
+
+[features]
+default = ["big-math"]
+big-math = ["dep:num-bigint", "dep:num-traits"]
